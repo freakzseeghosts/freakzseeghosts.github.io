@@ -1,0 +1,150 @@
+
+ <!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>B.E.R.D Digital Archive</title>
+		<style type="text/css">
+		
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			height: 100%; 
+			max-height: 100%; 
+			font-family:Sans-serif;
+			line-height: 1.5em;
+			background: #f4f4f5
+		}
+		
+		#header {
+			position: absolute;
+			top: 0;
+			left: 230px;
+			width: 100%;
+			height: 150px; 
+			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #546a7b;
+			color: #0d171c;
+			padding-left: 15px;
+
+		}
+		
+		#nav {
+			position: absolute; 
+			top: 0px;
+			bottom: 0;
+			left: 0;
+			width: 230px;
+			font-family: arial, sans-serif;
+			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+			background: #393d3f; 		
+		}
+
+		
+		#logo {
+			position: relative;
+			padding:6px;
+			width: 35%;
+		}
+		
+		main {
+			position: fixed;
+			top: 150px; /* Set this to the height of the header */
+			left: 230px; /* Set this to the width of the nav bar */
+			right: 200px;
+			bottom: 0px;
+			overflow: hidden; 
+			background: #f4f4f5;
+		}
+		
+		.innertube {
+			margin: 15px; /* Provides padding for the content */
+
+		}
+		.sidebar {
+			position: fixed;
+			top:150px;
+			bottom: 0;
+			right: 0;
+			width:200px;
+			background: #393d3f;
+		}
+		.container {display: flex; width: 100%; height: 100%; flex-direction: column; overflow: hidden;}
+		.iflex { flex-grow: 1; border: none; margin: 0px; padding: 0;}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+
+		
+		nav ul a {
+			color: #637e92;
+			text-decoration: none;
+			transition: background-color .3s;
+		}
+		nav ul a:hover {
+  			background-color: #A5243D;
+		}
+				
+		
+		* html main{ 
+			height: 100%; 
+			width: 100%; 
+		}
+		
+		</style>
+	</head>
+	
+	<body>		
+
+		<header id="header">
+			<div id="logo">
+				<h1 style="margin-top: 20px;border-bottom: 3px; border-bottom-style: ridge;">Bureau of Extranormal Research & Defense</h1>
+				<h2>Digital Archive</h2>
+			</div>
+		</header>
+				
+		<main>
+			<div class="container">
+					
+ 				<iframe src="./page1.html" title="description" name="iframe1" class="iflex"></iframe> 
+ 			</div>
+		</main>
+
+		<nav id="nav">
+			<div class="innertube">
+				<center><a href="./page1.html" target="iframe1" style=":hover"><img src="./berdcrestbw.png" height="185" width="185"></img></a>
+				<h2 style="color: #a5243d; margin-bottom: 6px; border-bottom: 3px ridge #0d171c;">HOT TOPICS</h2></td>
+				</center>
+				<ul>
+					<li><a href="./anomilies.html" target="iframe1">Anomilies</a></li>
+					<li><a href="./gottlieb-scale.html" target="iframe1">Gottlieb Scale</a></li>
+					<li><a href="#" >Greenville Incident</a></li>
+
+				</ul>
+				<center><h2 style="color: #0d171c; margin-bottom: 6px;border-bottom: 3px ridge #0d171c;">SECTIONS</h2></center>
+				<ul>
+					<li><a href="./history.html" target="iframe1">History of B.E.R.D</a></li>
+					<li><a href="./poi.html" target="iframe1">People Of Interest</a></li>
+					<li><a href="#">Documents and Publications </a></li>
+					<li><a href="#">Link 4</a></li>
+					<li><a href="#">Link 5</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="sidebar">
+
+			<p>oof</p>
+			
+		</div>
+	</body>
+</html>
